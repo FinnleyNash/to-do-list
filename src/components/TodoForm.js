@@ -43,7 +43,7 @@ function TodoForm(props) {
         <>
         <div className='todo-style'>
           <input
-            placeholder='Add a todo'
+            placeholder='Write your task here'
             value={input}
             onChange={handleChange}
             name='text'
@@ -51,7 +51,7 @@ function TodoForm(props) {
             ref={inputRef}
           />
           <button onClick={handleSubmit} className='todo-button'>
-            Add todo
+            Add Task
           </button>
           </div>
         </>
